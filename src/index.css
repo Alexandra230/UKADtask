@@ -157,10 +157,17 @@ color: #232323;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   
 }
-.products img{
+.img-cont{
+  width: 345px;
+  height: 364px;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+.img-cont img{
+  
   width: 100%;
-  height: 362px;
-  object-fit: cover;
+  height: 100%;
   
 }
 .cards{
