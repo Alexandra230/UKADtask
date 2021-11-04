@@ -44,7 +44,9 @@ export default class Products extends Component {
             <div className="products">
               {items.map((item) => (
                 <div key={item.name} className="cards">
-                  <img src={item.strDrinkThumb} alt="1" />
+                  <div className="img-cont">
+                    <img src={item.strDrinkThumb} alt="1" />
+                  </div>
                   <div className="prodtext">
                     <span>{item.idDrink}</span>
                     <p>{item.strDrink}</p>
