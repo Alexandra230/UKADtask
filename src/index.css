@@ -153,8 +153,8 @@ color: #232323;
 .products{
   position: relative;
       display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   
 }
 .img-cont{
@@ -176,6 +176,7 @@ color: #232323;
   width: 350px;
 height: 474px;
   box-sizing: border-box;
+  overflow: hidden;
 
 }
 footer {
